@@ -4,7 +4,7 @@ variable "ami" {
 
 variable "instance_tags" {
   type = list
-  default = ["Terraform-1", "Terraform-2"]
+  default = ["Terraform-1", "Terraform-2","Terraform-3"]
 }
 
 variable "instance_type" {
